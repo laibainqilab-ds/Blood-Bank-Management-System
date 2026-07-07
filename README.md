@@ -1,5 +1,7 @@
+![Database](https://img.shields.io/badge/Database-Oracle_SQL-red)
+![Project](https://img.shields.io/badge/Project-DBMS-blue)
 # Blood-Bank-Management-System
-Oracle SQL based Blood Bank Management System designed to manage donors, recipients, hospitals, blood inventory, donations, requests, and compatibility rules.
+Oracle SQL and APEX based Blood Bank Management System implementing donor management, blood inventory tracking, donation records, recipient requests, hospital management, and blood compatibility validation.
 
 ## Overview
 This project implements a relational database system for managing blood bank operations, including donor registration, recipient requests, blood inventory tracking, donation records, hospital management, and blood compatibility validation.
