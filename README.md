@@ -23,7 +23,7 @@ This project implements a relational database system for managing blood bank ope
 - User login and role management
 
 ## Database Design
-The database consists of 12 relational tables:
+The database consists of 13 relational tables:
 - BloodGroup
 - Donor
 - Recipient
@@ -33,7 +33,7 @@ The database consists of 12 relational tables:
 - BloodDonation
 - BloodRequest
 - Inventory
-- Location
+- Locationn
 - DonationCamp
 - UserLogin
 - BloodCompatibility
@@ -45,9 +45,7 @@ The database design follows Third Normal Form (3NF) to reduce redundancy and mai
 - `DML.sql` - Sample data insertion
 - `UPDATE.sql` - Update queries
 - `JOINS.sql` - SQL join queries
-- `ERD.png` - Entity Relationship Diagram
-- `Project_Report.pdf` - Detailed documentation
-
+- 
 ## Future Improvements
 - Add stored procedures and triggers
 - Implement indexing for performance optimization
