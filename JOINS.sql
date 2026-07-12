@@ -1,7 +1,8 @@
 -- Improved JOIN queries for Blood Bank Management System
 -- Added as part of Codoc GitHub Readiness Assignment
 -- Donor Donation History
-
+-- SQL JOIN Queries
+-- Added comments to improve readability and maintainability.
 SELECT 
 D.NAME,
 BD.DATEIS,
