@@ -3,6 +3,7 @@
 -- Donor Donation History
 -- SQL JOIN Queries
 -- Added comments to improve readability and maintainability.
+-- left join is used here to include all donors, even if they have not made a donation
 SELECT 
 D.NAME,
 BD.DATEIS,
@@ -12,8 +13,6 @@ FROM DONOR D
 JOIN BLOODDONATION BD
 ON D.DONOR_ID = BD.DONOR_ID;
 
-
-
 -- Recipient Hospital Details
 
 SELECT
@@ -22,8 +21,6 @@ H.NAME AS HOSPITAL
 FROM RECIPIENT R
 JOIN HOSPITAL H
 ON R.HOSPITAL_ID = H.HOSPITAL_ID;
-
-
 
 -- Inventory Blood Group and Location
 
@@ -37,8 +34,6 @@ JOIN BLOODGROUP BG
 ON I.BLOOD_GROUP_ID = BG.BLOOD_GROUP_ID
 JOIN LOCATIONN L
 ON I.LOCATION_ID = L.LOCATION_ID;
-
-
 
 -- Blood Compatibility Rules
 
