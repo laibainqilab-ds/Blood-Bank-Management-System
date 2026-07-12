@@ -4,6 +4,7 @@
 -- SQL JOIN Queries
 -- Added comments to improve readability and maintainability.
 -- left join is used here to include all donors, even if they have not made a donation
+-- Ensure matching keys are indexed to improve JOIN query performance.
 SELECT 
 D.NAME,
 BD.DATEIS,
