@@ -49,7 +49,8 @@ The database design follows Third Normal Form (3NF) to reduce redundancy and mai
 - `JOINS.sql` - SQL join queries
 - 
 ## Future Improvements
-- Add stored procedures and triggers
-- Implement indexing for performance optimization
-- Develop frontend/API integration
-- Improve security mechanisms
+- Stored procedures
+- Triggers
+- Indexing
+- Frontend integration
+- Security improvements
